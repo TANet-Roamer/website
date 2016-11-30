@@ -1,4 +1,4 @@
-baseurl = "https://aliangliang.github.io/TANetRoamer-desktop/"
+baseurl = "https://tanet-roamer.github.io/website/"
 languageCode = "en-us"
 title = "TANet Roamer 校園WIFI漫遊者"
 theme = "hugo-creative-theme"
