@@ -1,0 +1,100 @@
+baseurl = "https://aliangliang.github.io/TANetRoamer-desktop/"
+languageCode = "en-us"
+title = "TANet Roamer 校園WIFI漫遊者"
+theme = "hugo-creative-theme"
+
+[params]
+
+	# You can use Markdown syntax for urls [text](//url.to/source) for
+	# most longer texts.
+
+	# All icons using Fontawesome's icon font. Look at http://fontawesome.io/icons/
+	# for more icons. The icons are represented by their corresponding
+	# CSS class.
+
+	# All projects of the portfolio are defined in their own files.
+	# You can find example projects at 'exampleSite/data/projects'. Copy the 'projects'
+	# folder into the 'data' directory at the root of this Hugo site.
+	# For more information take a look at the README.
+
+	# To provide some metadata for search engines feel free to add some
+	# information about you and your website.
+	name = "ALiangLiang"
+	description = "一鍵登入校園 WI-FI 的桌面應用程式"
+
+	# The path must be relative to the static folder
+	favicon = "favicon.ico"
+
+
+	# Navigation
+	[params.navigation]
+		brand = "TANet Roamer"
+
+		[params.navigation.links]
+			about     = "關於"
+			services  = "特色"
+			portfolio = "Portfolio"
+			contact   = "Contact"
+
+
+	# Hero section
+	[params.hero]
+		# To change the background of the hero section, replace the 'header.jpg' at './static/img' with your own.
+		slogan     = "TANet Roamer 校園WIFI漫遊者"
+		subtitle   = "[TANet Roamer](//github.com/ALiangLiang/TANetRoamer-desktop) 是個以 Node.js 與 Javascript 為基礎的桌面應用程式，會自動幫您向校園 WIFI API 發送登入要求。"
+		buttonText = "更多資訊"
+
+
+	# About section
+	[params.about]
+		headline    = "我們為您省下幾秒鐘的時間，就等於省下全台灣學生的好幾十天。"
+		description = "一個人從連上 TANet Roaming WIFI 到登入完成，平均需要八秒鐘，全台灣有一百多萬的大學生，一天就可以省下全台灣大學生的好幾十天"
+		buttonText  = "省時間"
+
+
+	# Service section
+	[params.services]
+		headline = "特色"
+
+        [[params.services.list]]
+            icon = "fa-hand-pointer-o"
+            title = "一鍵登入校園 WI-FI "
+            description = "只需要開啟程式，自動登入。"
+
+		[[params.services.list]]
+            icon = "fa-wifi"
+            title = "跨校支援"
+            description = "內建多個學校的設定檔，不管到哪個學校，都能用自己的帳號登入。"
+
+        [[params.services.list]]
+			icon = "fa-level-up"
+			title = "自動更新"
+			description = "不用隨時關注是否有新版本，每次開啟程式，都會自動檢查更新並安裝。"
+
+        [[params.services.list]]
+            icon = "fa-thumb-tack"
+            title = "記憶帳密"
+            description = "只要設定一次，之後登入就不用再重複輸入。"
+
+
+    # Portfolio modals
+	[params.portfolio.modal]
+        client = "Client"
+        date = "Date"
+        category = "Category"
+        buttonText = "Close"
+
+    # Aside section
+	[params.aside]
+		headline = "開始以最簡單的方法漫遊校園 WIFI 吧"
+
+		[params.aside.button]
+			text = "下載"
+			link = "//github.com/ALiangLiang/TANetRoamer-desktop/releases/latest"
+
+	# Contact section
+	[params.contact]
+		headline = "Let's Get In Touch!"
+		description = "Ready to start your next project with us? That's great! Give us a call or send us an email and we will get back to you as soon as possible!"
+		phone = "0000-0000"
+		email = "david27072183@gmail.com"
